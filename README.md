@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/OnlySkillsR/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/OnlySkillsR/frontend-project-46/actions)
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+[![Node.js CI](https://github.com/OnlySkillsR/frontend-project-46/workflows/Node.js%20CI/badge.svg)]
 
 
 https://asciinema.org/a/A4YBZmTH1pzUZqACPg2KmWjKv - step 4
