@@ -6,6 +6,7 @@ import format from './format.js';
 
 
 const gendiff = (filepath1, filepath2, formatFile = 'stylish') => {
+    // eslint-disable-next-line no-undef
     const getReadFile = (filepath) => readFileSync(path.resolve(process.cwd(), filepath));
     const getFormatFile = (filepath) => path.extname(filepath).slice(1); 
 
