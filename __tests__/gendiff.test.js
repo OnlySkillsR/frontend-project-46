@@ -6,7 +6,7 @@ import gendiff from '../src/index';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const fixturePath = (fileName) => path.join(__dirname, '..', '__fixtures', fileName);
+const fixturePath = (fileName) => path.join(__dirname, '..', '__fixtures__', fileName);
 const readFile = (fileName) => fs.readFileSync(fixturePath(fileName), 'utf-8'); 
 
 test.each( [ 
