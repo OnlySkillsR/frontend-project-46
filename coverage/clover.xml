@@ -1,104 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1726408576169" clover="3.2.0">
-  <project timestamp="1726408576170" name="All files">
-    <metrics statements="72" coveredstatements="43" conditionals="39" coveredconditionals="18" methods="19" coveredmethods="11" elements="130" coveredelements="72" complexity="0" loc="72" ncloc="72" packages="2" files="7" classes="7"/>
+<coverage generated="1726411182124" clover="3.2.0">
+  <project timestamp="1726411182124" name="All files">
+    <metrics statements="154" coveredstatements="112" conditionals="26" coveredconditionals="21" methods="13" coveredmethods="9" elements="193" coveredelements="142" complexity="0" loc="154" ncloc="154" packages="2" files="7" classes="7"/>
     <package name="src">
-      <metrics statements="26" coveredstatements="25" conditionals="11" coveredconditionals="8" methods="7" coveredmethods="7"/>
+      <metrics statements="76" coveredstatements="73" conditionals="14" coveredconditionals="12" methods="6" coveredmethods="6"/>
       <file name="format.js" path="/home/piro/frontend-project-46/src/format.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
       </file>
       <file name="index.js" path="/home/piro/frontend-project-46/src/index.js">
-        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="8" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="10" count="4" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
+        <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
       </file>
       <file name="mainGenDif.js" path="/home/piro/frontend-project-46/src/mainGenDif.js">
-        <metrics statements="15" coveredstatements="14" conditionals="10" coveredconditionals="8" methods="2" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
+        <metrics statements="37" coveredstatements="34" conditionals="9" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="11" count="2" type="stmt"/>
-        <line num="15" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="16" count="4" type="stmt"/>
-        <line num="20" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="21" count="2" type="stmt"/>
-        <line num="25" count="2" type="cond" truecount="2" falsecount="2"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="10" type="cond" truecount="0" falsecount="2"/>
         <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
       </file>
       <file name="parsing.js" path="/home/piro/frontend-project-46/src/parsing.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.formats">
-      <metrics statements="46" coveredstatements="18" conditionals="28" coveredconditionals="10" methods="12" coveredmethods="4"/>
+      <metrics statements="78" coveredstatements="39" conditionals="12" coveredconditionals="9" methods="7" coveredmethods="3"/>
       <file name="json.js" path="/home/piro/frontend-project-46/src/formats/json.js">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
       <file name="plain.js" path="/home/piro/frontend-project-46/src/formats/plain.js">
-        <metrics statements="23" coveredstatements="1" conditionals="15" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <metrics statements="37" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="12" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
       </file>
       <file name="stylish.js" path="/home/piro/frontend-project-46/src/formats/stylish.js">
-        <metrics statements="22" coveredstatements="17" conditionals="13" coveredconditionals="10" methods="6" coveredmethods="4"/>
+        <metrics statements="40" coveredstatements="33" conditionals="12" coveredconditionals="9" methods="4" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="12" type="stmt"/>
         <line num="7" count="12" type="stmt"/>
+        <line num="8" count="12" type="cond" truecount="0" falsecount="1"/>
+        <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="19" count="2" type="stmt"/>
-        <line num="21" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="22" count="4" type="stmt"/>
-        <line num="24" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="25" count="2" type="stmt"/>
-        <line num="29" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="10" type="cond" truecount="0" falsecount="1"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="32" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
+        <line num="34" count="10" type="cond" truecount="0" falsecount="1"/>
         <line num="35" count="0" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
         <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
       </file>
     </package>
   </project>

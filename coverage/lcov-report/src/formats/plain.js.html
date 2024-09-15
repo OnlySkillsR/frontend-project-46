@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">4.34% </span>
+                <span class="strong">13.51% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>1/23</span>
+                <span class='fraction'>5/37</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/15</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/5</span>
+                <span class='fraction'>0/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">4.34% </span>
+                <span class="strong">13.51% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>1/23</span>
+                <span class='fraction'>5/37</span>
             </div>
         
             
@@ -99,86 +99,86 @@
 <a name='L34'></a><a href='#L34'>34</a>
 <a name='L35'></a><a href='#L35'>35</a>
 <a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import _ from 'lodash';
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import _ from 'lodash';
 &nbsp;
-const getForm = <span class="fstat-no" title="function not covered" >(v</span>alue) =&gt; {
+const getForm = (<span class="fstat-no" title="function not covered" >value) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >    if(!_.isObject(value)) {</span>
-        const formValue = <span class="cstat-no" title="statement not covered" >_.isString(value) ? `'${value}'` : `${value}`;</span>
+<span class="cstat-no" title="statement not covered" >        const formValue = _.isString(value) ? `'${value}'` : `${value}`;</span>
 <span class="cstat-no" title="statement not covered" >        return formValue;</span>
-    }
+<span class="cstat-no" title="statement not covered" >    }</span>
 <span class="cstat-no" title="statement not covered" >    return '[complex value]';</span>
-};
+<span class="cstat-no" title="statement not covered" >};</span>
 &nbsp;
-export default <span class="fstat-no" title="function not covered" >(d</span>ata) =&gt; {
-    const iter = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(i</span>nData, path = <span class="branch-0 cbranch-no" title="branch not covered" >[])</span> =&gt; {</span>
-        const formData = <span class="cstat-no" title="statement not covered" >inData.map(<span class="fstat-no" title="function not covered" >(n</span>ode) =&gt; {</span>
-            const pathElem = <span class="cstat-no" title="statement not covered" >[...path, node.name];</span>
-            const newPath = <span class="cstat-no" title="statement not covered" >pathElem.join('.');</span>
+export default (<span class="fstat-no" title="function not covered" >data) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    const iter = (inData, path = []) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >        const formData = inData.map((node) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >            const pathElem = [...path, node.name];</span>
+<span class="cstat-no" title="statement not covered" >            const newPath = pathElem.join('.');</span>
 <span class="cstat-no" title="statement not covered" >            if (node.type === 'added') {</span>
 <span class="cstat-no" title="statement not covered" >                return `Property '${newPath}' was added with value: ${getForm(node.value)}`;</span>
-            }
+<span class="cstat-no" title="statement not covered" >            }</span>
 <span class="cstat-no" title="statement not covered" >            if (node.type === 'deleted') {</span>
 <span class="cstat-no" title="statement not covered" >                return `Property '${newPath}' was removed`;</span>
-            }
+<span class="cstat-no" title="statement not covered" >            }</span>
 <span class="cstat-no" title="statement not covered" >            if (node.type === 'changed') {</span>
 <span class="cstat-no" title="statement not covered" >                return `Property '${newPath}' was updated. From ${getForm(node.oldValue)} to ${getForm(node.newValue)}`;</span>
-            }
+<span class="cstat-no" title="statement not covered" >            }</span>
 <span class="cstat-no" title="statement not covered" >            if (node.type === 'hereditary') {</span>
 <span class="cstat-no" title="statement not covered" >                return `${iter(node.children, pathElem)}`;</span>
-            }
+<span class="cstat-no" title="statement not covered" >            }</span>
 <span class="cstat-no" title="statement not covered" >            if (node.type === 'unchanged') {</span>
 <span class="cstat-no" title="statement not covered" >                return null;</span>
-            }
+<span class="cstat-no" title="statement not covered" >            }</span>
 <span class="cstat-no" title="statement not covered" >            throw new Error(`"${node.type}" type is not supported by the formatter`);</span>
-        })
-        .filter(<span class="fstat-no" title="function not covered" >(e</span>lem) =&gt; <span class="cstat-no" title="statement not covered" >elem !== null)</span>;
+<span class="cstat-no" title="statement not covered" >        })</span>
+<span class="cstat-no" title="statement not covered" >        .filter((elem) =&gt; elem !== null);</span>
 <span class="cstat-no" title="statement not covered" >       return `${formData.join('\n')}`;</span>
-    };
+<span class="cstat-no" title="statement not covered" >    };</span>
 <span class="cstat-no" title="statement not covered" >    return iter(data);</span>
-};</pre></td></tr></table></pre>
+<span class="cstat-no" title="statement not covered" >};</span></pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-09-15T13:56:16.158Z
+                at 2024-09-15T14:39:42.112Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
