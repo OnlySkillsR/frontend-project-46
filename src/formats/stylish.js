@@ -1,40 +1,43 @@
 import _ from 'lodash';
 
-const indent = (depth) => '   '.repeat(depth);
+const indent = (depth) => '    '.repeat(depth);
 
-const valueTree = (value, depth) => {
+const getValue = (value, depth) => {
     if (!_.isObject(value)) {
         return value;
     }
 
     const keys = Object.keys(value);
-    const formValue = keys.map((key) => `${indent(depth + 2)}${key}: ${valueTree(value[key], depth + 1)}`) 
-        return `{\n${formValue.join('\n')}\n${indent(depth + 1)}}`;
+    const formattedValue = keys.map((key) => `${indent(depth + 2)}${key}: ${getValue(value[key], depth + 1)}`);
+    return `{\n${formattedValue.join('\n')}\n${indent(depth + 1)}}`;
 };
 
-    export default (data) => {
-        const iter = (inData, depth = 0) => {
-            const formData = inData.flatMap((node) => {
-                if (node.type === 'added') {
-                    return `${`  + `}${node.name}: ${valueTree(node.value, depth)}`;
-                };
-                if (node.type === 'deleted') {
-                    return `${`  - `}${node.name}: ${valueTree(node.value, depth)}`;
-                };
-                if (node.type === 'changed') {
-                    return [`${`  - `}${node.name}: ${valueTree(node.oldValue, depth)}`,
-                    `${`  + `}${node.name}: ${valueTree(node.newValue, depth)}`,
+export default (data) => {
+
+    const iter = (innerData, depth = 0) => {
+        const formattedData = innerData.flatMap((node) => {
+            if (node.type === 'added') {
+                return `${indent(depth)}  + ${node.name}: ${getValue(node.value, depth)}`;
+            }
+            if (node.type === 'deleted') {
+                return `${indent(depth)}  - ${node.name}: ${getValue(node.value, depth)}`;
+            }
+            if (node.type === 'unchanged') {
+                return `${indent(depth)}    ${node.name}: ${getValue(node.value, depth)}`;
+            }
+            if (node.type === 'changed') {
+                return [
+                `${indent(depth)}  - ${node.name}: ${getValue(node.oldValue, depth)}`,
+                `${indent(depth)}  + ${node.name}: ${getValue(node.newValue, depth)}`,
                 ];
-                };
-                if (node.type === 'hereditary') {
-                    return `${`    `}${node.name}: ${valueTree(node.value, depth + 1)}`;
-                };
-                if (node.type === 'unchanged') {
-                    return `${`    `}${node.name}: ${valueTree(node.value, depth)}`;
-                };
-                throw new Error(`"${node.type}" type is not supported by the formatter`);
-            });
-            return `{\n${formData.join('\n')}\n}`;
-        }
-        return iter(data)
-    }
+            }
+            if (node.type === 'hereditary') {
+                return `${indent(depth)}    ${node.name}: ${iter(node.children, depth + 1)}`;
+            }
+            throw new Error('"${node.type}" type is not supported by the formatter');
+        });
+
+        return `{\n${formattedData.join('\n')}\n${indent(depth)}}`;
+    };
+    return iter(data);
+}
