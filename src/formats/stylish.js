@@ -27,10 +27,10 @@ const valueTree = (value, depth) => {
                 ];
                 };
                 if (node.type === 'hereditary') {
-                    return `${`   `}${node.name}: ${valueTree(node.value, depth + 1)}`;
+                    return `${`    `}${node.name}: ${valueTree(node.value, depth + 1)}`;
                 };
                 if (node.type === 'unchanged') {
-                    return `${`   `}${node.name}: ${valueTree(node.value, depth)}`;
+                    return `${`    `}${node.name}: ${valueTree(node.value, depth)}`;
                 };
                 throw new Error(`"${node.type}" type is not supported by the formatter`);
             });

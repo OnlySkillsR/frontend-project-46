@@ -6,4 +6,6 @@ const getPars = {
     yml: yaml.load,
 };
 
-export default (data, format) => getPars[format](data);
+export default (data, format) => {
+    return getPars[format](data);
+};
