@@ -1,0 +1,12 @@
+{"version": 2, "width": 209, "height": 51, "timestamp": 1726484370, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.017298, "o", "\u001b[?2004h\u001b]0;piro@DESKTOP-C7MCNLT: ~/frontend-project-46/__fixtures__\u0007\u001b[01;32mpiro@DESKTOP-C7MCNLT\u001b[00m:\u001b[01;34m~/frontend-project-46/__fixtures__\u001b[00m$ "]
+[0.904223, "o", "\u001b[7mgendiff --format json file1.json file2.json\u001b[27m"]
+[1.717125, "o", "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bgendiff --format json file1.json file2.json\r\n\u001b[?2004l\r"]
+[1.910378, "o", "[{\"name\":\"common\",\"type\":\"hereditary\",\"children\":[{\"name\":\"follow\",\"type\":\"added\",\"value\":false},{\"name\":\"setting1\",\"type\":\"unchanged\",\"value\":\"Value 1\"},{\"name\":\"setting2\",\"type\":\"deleted\",\"value\":200},{\"name\":\"setting3\",\"type\":\"changed\",\"oldValue\":true,\"newValue\":null},{\"name\":\"setting4\",\"type\":\"added\",\"value\":\"blah blah\"},{\"name\":\"setting5\",\"type\":\"added\",\"value\":{\"key5\":\"value5\"}},{\"name\":\"setting6\",\"type\":\"hereditary\",\"children\":[{\"name\":\"doge\",\"type\":\"hereditary\",\"children\":[{\"name\":\"wow\",\"type\":\"changed\",\"oldValue\":\"\",\"newValue\":\"so much\"}]},{\"name\":\"key\",\"type\":\"unchanged\",\"value\":\"value\"},{\"name\":\"ops\",\"type\":\"added\",\"value\":\"vops\"}]}]},{\"name\":\"group1\",\"type\":\"hereditary\",\"children\":[{\"name\":\"baz\",\"type\":\"changed\",\"oldValue\":\"bas\",\"newValue\":\"bars\"},{\"name\":\"foo\",\"type\":\"unchanged\",\"value\":\"bar\"},{\"name\":\"nest\",\"type\":\"changed\",\"oldValue\":{\"key\":\"value\"},\"newValue\":\"str\"}]},{\"name\":\"group2\",\"type\":\"deleted\",\"value\":{\"abc\":12345,\"deep\":{\"id\":45}}},{\"name\":\"group3\",\"type\":\"added\",\"value\":{\"deep\":{\"id\""]
+[1.910728, "o", ":{\"number\":45}},\"fee\":100500}}]\r\n"]
+[1.917738, "o", "\u001b[?2004h\u001b]0;piro@DESKTOP-C7MCNLT: ~/frontend-project-46/__fixtures__\u0007\u001b[01;32mpiro@DESKTOP-C7MCNLT\u001b[00m:\u001b[01;34m~/frontend-project-46/__fixtures__\u001b[00m$ "]
+[3.098918, "o", "e"]
+[3.343051, "o", "x"]
+[3.485884, "o", "i"]
+[3.722483, "o", "t"]
+[4.001234, "o", "\r\n\u001b[?2004l\rexit\r\n"]
