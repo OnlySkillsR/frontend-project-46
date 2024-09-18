@@ -16,4 +16,6 @@ rules:
   fp/no-throw: 0
   fp/no-mutation: 0
   fp/no-mutating-methods: 0
-  
+
+parserOptions:
+  ecmaVersion: 2020
