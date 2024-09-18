@@ -34,7 +34,7 @@ export default (data) => {
         return `${indent(depth)}    ${node.name}: ${iter(node.children, depth + 1)}`;
       }
       // eslint-disable-next-line no-template-curly-in-string
-      throw new Error('${node.type}" type is not supported by the formatter');
+      throw new Error('"${node.type}" type is not supported by the formatter');
     });
 
     return `{\n${formattedData.join('\n')}\n${indent(depth)}}`;

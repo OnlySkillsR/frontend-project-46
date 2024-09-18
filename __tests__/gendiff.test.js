@@ -1,8 +1,6 @@
 /* eslint-disable no-undef */
 
-import { test } from '@jest/globals';
-import fs from 'fs';
-import path, { dirname } from 'path';
+import fs from 'fs'; import path, {dirname} from 'path';
 import { fileURLToPath } from 'url';
 import gendiff from '../src/index'; 
 
