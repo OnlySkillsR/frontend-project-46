@@ -4,7 +4,7 @@ import fs from 'fs'; import path, {dirname} from 'path';
 import { fileURLToPath } from 'url';
 import gendiff from '../src/index'; 
 
-const __filename = fileURLToPath(import.meta.url);
+const __filename = fileURLToPath(import.meta.url); // eslint-disable-line
 const __dirname = dirname(__filename);
 
 const fixturePath = (fileName) => path.join(__dirname, '..', '__fixtures__', fileName);
